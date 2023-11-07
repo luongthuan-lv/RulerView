@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="bgColor" format="reference|color" />
+    <attr name="gradationColor" format="reference|color" />
+    <attr name="textColor" format="reference|color" />
+    <attr name="textSize" format="reference|dimension" />
+    <attr name="indicatorLineColor" format="reference|color" />
+    <attr name="indicatorLineWidth" format="reference|dimension" />
+
+    <declare-styleable name="RulerView">
+        <attr name="bgColor" />
+        <attr name="gradationColor" />
+        <attr name="rv_shortLineWidth" format="reference|dimension" />
+        <attr name="rv_longLineWidth" format="reference|dimension" />
+        <attr name="rv_shortGradationLen" format="reference|dimension" />
+        <attr name="rv_longGradationLen" format="reference|dimension" />
+        <attr name="textColor" />
+        <attr name="textSize" />
+        <attr name="indicatorLineColor" />
+        <attr name="indicatorLineWidth" />
+        <attr name="rv_indicatorLineLen" format="reference|dimension" />
+        <attr name="rv_minValue" format="reference|float" />
+        <attr name="rv_maxValue" format="reference|float" />
+        <attr name="rv_currentValue" format="reference|float" />
+        <attr name="rv_gradationUnit" format="reference|float" />
+        <attr name="rv_numberPerCount" format="reference|integer" />
+        <attr name="rv_gradationGap" format="reference|dimension" />
+        <attr name="rv_gradationNumberGap" format="reference|dimension" />
+    </declare-styleable>
+</resources>
